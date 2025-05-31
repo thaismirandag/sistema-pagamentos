@@ -1,0 +1,52 @@
+# === JAVA ===
+*.class
+*.jar
+*.war
+*.ear
+
+# === MAVEN ===
+target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/timing.properties
+
+# === LOGS ===
+*.log
+spring.log
+
+# === SYSTEM FILES ===
+.DS_Store
+Thumbs.db
+
+
+## VSCode
+.vscode/
+.classpath
+.project
+.settings/
+
+# === OS ===
+*.swp
+*.swo
+
+# === ENV ===
+.env
+.env.*
+
+# === DOCKER ===
+**/docker-compose.override.yml
+**/.dockerignore
+
+# === TEST COVERAGE ===
+*.ec
+coverage/
+jacoco.exec
+
+# === BUILD TOOLS ===
+.buildpath
+.gradle/
+.cache/
+
+# === OTHERS ===
+*.tmp
+*.bak
+*.old
